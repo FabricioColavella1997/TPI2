@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS products (
+  id TEXT PRIMARY KEY,
+  nombre TEXT NOT NULL,
+  precio REAL NOT NULL
+);
